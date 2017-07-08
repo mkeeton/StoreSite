@@ -1,0 +1,9 @@
+﻿export type SuccessStatusState = "passed" | "failed" | "unknown";
+export type CompletionStatusState = "completed" | "incomplete" | "not_attempted" | "unknown";
+export type CreditState = "credit" | "no_credit";
+export type EntryState = "ab_initio" | "resume" | "";
+export type ExitState = "timeout" | "suspend" | "logout" | "normal" | "";
+export type ModeState = "browse" | "normal" | "review";
+export type TimeLimitActionState = "exit_message" | "continue_message" | "exit_no_message" | "continue_no_message";
+export type AudioCaptioningState = "off" | "no_change" | "on";
+export type InteractionType = "true_false" | "multiple_choice" | "fill_in" | "long_fill_in" | "matching" | "performance" | "sequencing" | "likert" | "numeric" | "other";

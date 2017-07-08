@@ -1,0 +1,15 @@
+﻿<h1>Package List</h1>
+<table class="Packages">
+    <tr>
+        <th>Course Ref.</th>
+        <th>Course Name</th>
+        <th>Schema</th>
+        <th>Version</th>
+    </tr>
+    <tr *ngFor="let _package of _packageList">
+        <td>{{_package.OrganizationId}}</td>
+        <td>{{_package.OrganizationName}}</td>
+        <td>{{_package.Schema}}</td>
+        <td>{{_package.SchemaVersion}}</td>
+    </tr>
+</table>
